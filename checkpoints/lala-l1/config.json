@@ -1,0 +1,38 @@
+{
+ "name": "cyberfm-seq-v1 (real_only)",
+ "members": [
+  "seed0",
+  "seed1",
+  "seed2"
+ ],
+ "thresholds": {
+  "0.001": 0.20217780768871307,
+  "0.01": 0.00585139449685812
+ },
+ "d": 128,
+ "layers": 4,
+ "L": 256,
+ "stride": 128,
+ "split": "eval_freeze_v1 sha256 8b3653d4...fd816",
+ "train": [
+  "cflin-p106",
+  "cflin-p15",
+  "cflin-p2000024",
+  "cflin-p2000025",
+  "cflin-p2000026",
+  "cflin-p2000027",
+  "cflin-p2000028",
+  "cflin-p2000029",
+  "cflin-p2000030",
+  "cflin-p2000031",
+  "cflin-p2000032",
+  "cflin-p2000033",
+  "cflin-p2000034",
+  "cflin-p2000035",
+  "cflin-p2000036",
+  "cflin-p2000037",
+  "cflin-p27",
+  "cflin-p31"
+ ],
+ "calibration": "3-fold unit-grouped OOF on TRAIN_ALLOWED real-time benign"
+}

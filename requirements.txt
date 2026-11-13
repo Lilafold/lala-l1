@@ -1,0 +1,8 @@
+torch
+numpy
+pandas
+orjson
+scipy
+scikit-learn
+# Optional, only needed for src/r2lib.py evaluation helpers:
+# lightgbm

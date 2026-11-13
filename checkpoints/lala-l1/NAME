@@ -1,0 +1,10 @@
+NAME: Lala L1
+model id: lala-l1
+formerly: cyberfm-seq-v1 (real_only)
+source path: checkpoints/cyberfm-seq-v1-eval_freeze/real_only
+mapping: lala-l1 = cyberfm-seq-v1 real_only
+status: research v1 checkpoint
+note: this directory is a copy; the original was not moved or deleted.
+
+The dilated comparison is an unnamed ablation, not a release:
+  lala-l1-ablation-dilated = checkpoints/cyberfm-seq-v1-eval_freeze/real+dilated_ABLATION
