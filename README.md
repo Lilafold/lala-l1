@@ -11,6 +11,7 @@ pipeline_tag: other
 ---
 
 # Lala L1
+> Part of the [LilaFold](https://lilafold.io/) research project — small, specialised AI models for serious work.
 
 Lala-L1 is a small causal sequence model for Task A: score each endpoint event as part of a scripted attack step. It was trained by the lilafold lab on **owned, real-time Linux lab telemetry** (OCSF-normalized events). It is a research checkpoint, not a product, and it does **not** autonomously block or respond.
 
